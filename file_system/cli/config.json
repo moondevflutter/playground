@@ -1,0 +1,29 @@
+{
+    "project": "sample_prj01",
+    "platform": "web,ios,android", 
+    "root": "C:/MoonDev/withLang/inFlutter/playground/file_system/cli/",
+    "replacements": [
+        {
+            "path": "android/app/build.gradle", 
+            "repls": [
+                ["flutter.compileSdkVersion", "33"], 
+                ["GradleException", "FileNotFoundException"],
+                ["minSdkVersion flutter.minSdkVersion", "minSdkVersion 28"],
+                ["targetSdkVersion flutter.targetSdkVersion", "targetSdkVersion 33"]
+            ]
+        },
+        {
+            "path": "README.md", 
+            "repls": [
+                ["sample_prj", "SAMPLE_PRJ"], 
+                ["Getting Started", "GETTING STARTED"]
+            ]
+        }
+    ],
+    "files": {
+        "copy": [
+            ["./README1.md", "README1.md"]  
+        ],
+        "delete": [".gitignore", "README.md"]
+    }
+}

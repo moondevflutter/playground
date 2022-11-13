@@ -67,3 +67,4 @@ app.*.map.json
 ## USER DEFINED ##
 .gitignore
 .metadata
+setup.md
