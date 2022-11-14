@@ -22,7 +22,7 @@
     ],
     "files": {
         "copy": [
-            ["./README1.md", "README1.md"]  
+            ["./README1.md", "README1.md"]
         ],
         "delete": [".gitignore", "README.md"]
     }
